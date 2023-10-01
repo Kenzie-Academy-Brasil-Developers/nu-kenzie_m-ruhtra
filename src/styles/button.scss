@@ -1,0 +1,22 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &.form {
+    width: 19.625rem;
+    height: 3rem;
+    margin: 1rem 0 0 0;
+    padding: 0 1rem 0 1rem;
+
+    border-radius: 0.5rem;
+
+    background-color: var(--color-primary);
+    color: var(--color-white);
+
+    font-family: var(--font-secondary);
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.21rem;
+  }
+}

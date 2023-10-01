@@ -1,0 +1,28 @@
+%flexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.container {
+  @extend %flexbox;
+
+  width: 22.1875rem;
+
+  margin: 0 auto 2rem auto;
+}
+
+.containerCards {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media (min-width: 870px) {
+  .container,
+  .containerCards {
+    margin-top: 0.5rem;
+    margin-left: 0;
+  }
+}
