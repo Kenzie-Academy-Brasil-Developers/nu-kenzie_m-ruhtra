@@ -15,4 +15,4 @@ Criação de uma aplicação para gerenciamento de gastos, cadastrando entradas 
 - Importação e exportação de dados;
 - Renderização de lista de dados de forma dinâmica;
 - Utilização de *props* e *children*;
-- Estibilização com SASS e SASS Modules.
+- Estilização com SASS e SASS Modules.
